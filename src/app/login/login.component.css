@@ -1,0 +1,24 @@
+body{   
+
+    background-image: url(./fondoQatar.webp);
+    background-size: 100% 100%;
+    background-size: cover;
+    }
+
+   .contenedor{
+       width: 30%;
+       background-color: rgb(10, 11, 11);
+      /* height: 50%;
+       width: 10%;*/
+   }
+   #BtnInvitar{
+       background-color: rgb(88, 87, 89);
+   }
+   #BtnRegistrar{
+       background-color: rgb(28, 27, 30);
+   }
+
+   #notify.error{
+    background-color: #960e0c;
+  }
+  

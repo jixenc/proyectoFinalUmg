@@ -1,0 +1,50 @@
+<body id="body1">
+  <form class="form-signin" [formGroup]="signinForm" (ngSubmit)="loginUser()">
+  <section class="vh-100 gradient-custom">
+    <div class="container py-5 h-100">
+      <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col-10 col-md-8 col-lg-6 col-xl-5">
+          <div class="card bg-dark bg-gradient opacity-70 text-white" style="border-radius: 1rem;">
+            <div class="card-body p-6 text-center">  
+                <h2 class="fw-bold mb-2 text-uppercase">Ingresar</h2>
+                <p class="text-white-50 mb-4">Ingrese su correo y contraseña</p>
+  
+                <div class="form-group">
+                  <label class="form-label" for="form2Example1">Usuario</label>
+                  <input type="userName"  
+                        class="form-control"
+                        formControlName="userName"
+                        placeholder="Ingrese usuario registrado"
+                        pattern="[a-z]{5-15}"
+                        />
+                </div>
+  
+                <div class="form-group">
+                  <label class="form-label" for="form2Example2">Contraseña</label>
+                  <input
+                  type="password"
+                  class="form-control"
+                  formControlName="password"
+                  placeholder="Contraseña"
+                  />
+                </div>
+                <p>
+                </p>
+                <p>
+                  <button type="submit" (click)="navegar()" class="btn btn-block btn-primary" href="/principal">Ingresar</button>
+                </p>
+                
+                <!-- <p> 
+                <button (click)="navegar()" class="btn btn-outline-light btn-lg px-5" type="submit" href="/principal">Ingresar</button>
+                </p> -->
+                <button (click)="navegar1()" class="btn btn-block btn-primary" style="background-color: #e47b6d;"
+                type="submit"><i href="/registro"></i> Registrarse</button>
+  
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</form>
+</body>

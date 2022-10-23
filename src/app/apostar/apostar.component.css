@@ -1,0 +1,8 @@
+body#fondo{
+    height: 100vh;   
+    background-image: url(https://img.freepik.com/vector-premium/fondo-copa-mundial-futbol-banner-campeonato-futbol-2022-qatar_29865-3052.jpg?w=2000);
+    /*
+    background: linear-gradient(0deg,  rgb(109, 54, 141) 50%, rgb(59, 7, 107) 100%);
+    background: rgb(2,0,36);
+    */
+}

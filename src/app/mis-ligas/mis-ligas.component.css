@@ -1,0 +1,61 @@
+form{
+
+    margin-top: 5em;
+    height: 35em;
+
+
+}
+.container{
+    position: relative;
+    top: 5%;
+    background-color: rgba(233, 231, 235, 0.548);
+}
+body{
+    height: 100vh;  
+    background-image: url(https://i.pinimg.com/736x/77/ba/af/77baafbb636948bf4d0a47ccb8ce539b.jpg);
+}
+#Ligas{
+    margin-bottom: 5em;
+}
+label{
+    position: relative;
+    left: 10%;
+    top: 2.3em;
+    background-color: rgba(75, 16, 16, 0.699);
+    color: white;
+    font-size: 25px;
+    height: 40px;
+    width: 150px;
+    text-align: center;
+    border-radius: 10px/15px;
+}
+
+#Invita1, #Invita2, #Invita3{
+    margin-bottom: 3em;
+    position: relative;
+    left: 15%;
+    bottom: 8%;
+}
+
+#BtnBuscar{
+    position: relative;
+    left: 50%;
+    top: 3.4em;
+    background-color: rgba(75, 16, 16, 0.699);
+    color: white;
+
+}
+
+#BtnInvitar {
+    display: inline-block;
+    padding: 0.85em 1.5em;
+    font-size: 1 em;
+    cursor: pointer;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #5D5D9B;
+    border: none;
+    border-radius: 0;
+  }
+
+  

@@ -1,0 +1,45 @@
+#inputNumber{
+    position: relative;
+    left: 0%;
+}
+#inputText{
+    position: relative;
+    left: 0%;
+}
+#inputDate{
+    position: relative;
+    left: 0%;
+}
+.form-label{
+    position: relative;
+    left: 0%;
+}
+
+form{
+    margin-left: 5em;
+}
+#container{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+}
+.container{
+
+    background-color: rgba(233, 231, 235, 0.548);
+    border-top: 0.3rem solid rgba(185, 177, 177, 0.363);
+    border-left: 0.3rem solid rgba(185, 177, 177, 0.363);
+    border-right: 0.3rem solid rgba(185, 177, 177, 0.363);
+    border-bottom: 0.3rem solid rgba(185, 177, 177, 0.363);
+}
+
+
+body{
+    height: 100vh;
+    width: 100%;
+    margin: 50 auto;
+    background-image: url(principal.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-size: cover;
+}

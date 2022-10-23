@@ -1,0 +1,35 @@
+<body id="fondoInvitar">
+    <div class="container">
+        <div class="row">
+            <p>
+                <br>
+                <br>
+            </p>
+            <form>
+                <div class="form-group">
+                    <div class="form-group">
+                        <label class="form-check-label" for="txtnombre" style="background-color: #31c283f4;" >
+                            Numero de Liga:  
+                          </label>
+                        <input value=1 type="number"  id="txtnombre" name="txtnombre" class="form-control"  placeholder=""  formControlName="userName" required  title="Debes rellenar el campo numero de liga">
+                      </div>
+                      <p>
+          
+                      </p>
+                    <div class="form-group">
+                        <label class="form-check-label" for="gridCheck" style="background-color: #31c283f4;">
+                            Correo electronico:  
+                          </label>
+                        <input type="email" class="form-control" placeholder="Ingrese correo electronico" formControlName="email" required title="Debes ingresar tu correo electronico para continuar">
+                      </div>
+                    <p>
+                    </p>
+                    <div class="col" >
+                        <button type="submit" class="btn btn-primary" (click)="navegar()"href="/principal">INVITAR</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>

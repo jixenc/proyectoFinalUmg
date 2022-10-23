@@ -1,0 +1,17 @@
+body#fondoInvitar{
+    height: 100vh;   
+    background-image: url(https://deportesinc.com/depsite/wp-content/uploads/2022/03/Qatar-2022-crypto.com_.jpg);
+    /*
+    background: linear-gradient(0deg,  rgb(109, 54, 141) 50%, rgb(59, 7, 107) 100%);
+    background: rgb(2,0,36);
+    */
+}
+
+select:focus:required:invalid {
+    background-color: #f9bfbe;
+  }
+
+  #notify.error{
+    background-color: #960e0c;
+  }
+  

@@ -1,0 +1,6 @@
+{
+    "/api": {
+      "target": "https://desarrollo-web-proyectos.herokuapp.com",
+      "secure": false
+    }
+  }
