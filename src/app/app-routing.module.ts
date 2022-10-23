@@ -16,7 +16,7 @@ const appRoutes: Routes = [
   { path: '', redirectTo: '/login', pathMatch: 'full' },
   {path:'',component:LoginComponent},
   {path: 'registro', component: RegistroComponent},
-  {path: 'principal', component: PrincipalComponent,canActivate: [AuthGuard]},
+  {path: 'principal', component: PrincipalComponent},
   {path: 'login',component: LoginComponent},
   {path: 'equipos',component: EquiposComponent},
   {path: 'crear-ligas', component: CrearLigasComponent},
